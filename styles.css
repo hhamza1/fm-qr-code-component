@@ -1,0 +1,22 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: #D5E1EF;
+    padding: 0;
+    margin: 0;
+}
+
+.qrcode-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    margin: 27px;
+}
+
+.qrcode-container img {
+    width: 288px;
+    border-radius: 10%;
+    padding: 16px;
+}
